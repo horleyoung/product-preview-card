@@ -1,0 +1,230 @@
+@media screen and (min-width: 490px) {
+    body {
+        background-color: hsl(30, 38%, 92%);
+        margin: 8rem;
+        font-size: 14px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        border-radius: 7px 0px 0px 7px;
+    }
+    .box {
+        background: hsl(0, 0%, 100%);
+        width: 27%;
+        height: 400px;
+        border-radius: 0px 7px 7px 0px;
+        border: none;
+    }
+    .box div {
+        padding-left: 30px;
+    }
+    div h4 {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 0.4em;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+        font-size: 12px;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+     div h3 {
+        width: 15vw;
+        position: relative;
+        bottom: 15px;
+        font-weight: 700;
+        font-size: 34.8px;
+    }
+    div p {
+        width: 16em;
+        letter-spacing: normal;
+        position: relative;
+        bottom: 35px;
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    .money {
+        position: relative;
+        bottom: 25px;
+        padding-bottom: 30px;
+        color: hsl(158, 36%, 37%);
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+    .money1 {
+        position: relative;
+        left: 5px;
+        bottom: 35px;
+        text-decoration: line-through;
+    }
+    .cart {
+        padding: 2px 1px;
+        width: 60%;
+        height: 35px;
+        border-radius: 5px;
+        background: hsl(158, 36%, 37%) url("/images/icon-cart.svg") no-repeat 28%;
+        display: flex;
+        color: hsl(0, 0%, 100%);
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+        
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 8rem;
+    font-size: 14px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile {
+    display: none;
+}
+.desktop {
+    border-radius: 7px 0px 0px 7px;
+}
+.box {
+    background: hsl(0, 0%, 100%);
+    width: 27%;
+    height: 400px;
+    border-radius: 0px 7px 7px 0px;
+}
+.box div {
+    padding-left: 30px;
+}
+div h4 {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.4em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+ div h3 {
+    width: 15vw;
+    position: relative;
+    bottom: 15px;
+    font-weight: 700;
+    font-size: 34.8px;
+}
+div p {
+    width: 16em;
+    letter-spacing: normal;
+    position: relative;
+    bottom: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.money {
+    position: relative;
+    bottom: 25px;
+    padding-bottom: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.money1 {
+    position: relative;
+    left: 5px;
+    bottom: 35px;
+    text-decoration: line-through;
+}
+.cart {
+    padding: 2px 1px;
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    background: hsl(158, 36%, 37%) url("/images/icon-cart.svg") no-repeat 28%;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (device-width < 480px){
+    body {
+        margin: 2rem;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        width: 14em;
+        height: 12em;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5% 5% 0 0;
+    }
+    .wrapper {
+        display: inline-block;   
+    }
+    .box {
+        width: 14em;
+        height: 20em;
+        position: relative;
+        bottom: 1rem;
+        border-radius: 0 0 6px 6px;
+    }
+    .box div {
+        padding: 1em;
+    }
+     div h3 {
+        width: 110%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    div p {
+        width: 15em;
+        font-size: 11px;
+
+    }
+    .money {
+        font-size: x-large;
+    }
+    .cart {
+        width: 89%;
+        height: 0.1rem;
+        background-position: 25px 5px;
+        position: relative;
+        bottom: 15px;
+        right: 5px;
+        border-radius: 5px;
+    }
+}
